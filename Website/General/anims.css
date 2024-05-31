@@ -1,0 +1,43 @@
+:root {
+  --t-delay-h1: 0s;
+  --t-delay-h2: 0s;
+  --t-delay-hr: 0s;
+  --t-delay-bt: 0s;
+}
+
+/*   hr   */
+.hr_load{
+  width: 40%;
+}
+
+.footer_load{
+  scale: 100%;
+  opacity: 1;
+}
+/*   delays   */
+.d_h1{
+  transition-delay: var(--t-delay-h1);
+}
+.d_h2{
+  transition-delay: var(--t-delay-h2);
+}
+.d_hr{
+  transition-delay: var(--t-delay-hr);
+}
+.d_bt{
+  transition-delay: var(--t-delay-bt);
+}
+
+/*   header   */
+.y0{
+  transform: translateY(0);
+  opacity: 1;
+}
+.s1{
+  opacity: 1;
+  scale: 1;
+}
+.h_hr_load{
+  width: 40%;
+  opacity: .8;
+}

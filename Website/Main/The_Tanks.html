@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Icon-->
+  <link rel="icon" type="image/x-icon" href="../General/Img/Tank_icon.png" />
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!--CSS-->
+  <link rel="stylesheet" href="../General/glitch_anim.css" />
+  <link rel="stylesheet" href="../General/glitch_anim_2.css" />
+  <link rel="stylesheet" href="../General/general.css" />
+  <link rel="stylesheet" href="../General/footer.css" />
+  <link rel="stylesheet" href="../General/anims.css" />
+  <!--Hamburger CSS-->
+  <link rel="stylesheet" href="../Hamburger/hamburger.css" />
+  <!--Own CSS-->
+  <link rel="stylesheet" href="The_Tanks.css" />
+  <!--Font family-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--font-family: "Chakra Petch", sans-serif;-->
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!--font-family: "Caveat", cursive;-->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <!--font-family: 'Share Tech Mono', monospace;-->
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!--font-family: 'Barlow', sans-serif;-->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
+  <title>Főoldal</title>
+</head>
+
+<body>
+  <video autoplay muted loop id="bg_video">
+    <source src="../IMG/gameplay_loop.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>
+
+  <div class="hamToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul class="ham">
+      <!--
+      <li>
+        <a href="../../Menu/menu.html">
+        <img class="ham_img" src="../Hamburger/Ham_Img/back.png" alt="" /></a>
+      </li>
+      -->
+      <li>
+        <a href="https://github.com/KnownHaruki/The_Tank_Game_site" target="_blank">
+        <img class="ham_img"src="../Hamburger/Ham_Img/github.png" alt="" /></a>
+      </li>
+      <li>
+        <a href="https://drive.google.com/drive/folders/1zi96nToRp0f9XojSb1fysUeOSrCsOIQ1">
+        <img class="ham_img" src="../Hamburger/Ham_Img/google-drive.png" alt="" /></a>
+      </li>
+    </ul>
+  </div>
+
+  <main>
+    <header>
+      <h1 id="h_h1">The Tank Game</h1>
+      <hr id="h_hr_load">
+      <h2 id="h_h2">" The first of its kind "</h2>
+    </header>
+
+    <div id="bt_load">
+      <a href="" id="down_bt" class="bttn-dark" download>
+        <div class="bt_txt">Letöltés</div>
+        <div id="down_bt_img" class="bt_img"></div>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="foot_grid">
+      <div class="foot_grid_div col1">
+        <h1>A játékot készítette:</h1>
+        <div class="glitch tutels_glitch" onclick="location.href='https://youtu.be/dQw4w9WgXcQ'">
+          <div class="line">Harazin Noel</div>
+          <div class="line">Harazin Noel</div>
+          <div class="line">Harazin Noel</div>
+          <div class="line">Harazin Noel</div>
+          <div class="line">Harazin Noel</div>
+          <div class="line">Harazin Noel</div>
+          <div class="line">Harazin Noel</div>
+          <div class="line">Harazin Noel</div>
+          <div class="line">Harazin Noel</div>
+        </div>
+        <p>noel.harazin@gmail.com</p>
+        <p>06 20 461 7106</p>
+      </div>
+      <div class="foot_grid_div col2">
+        <h1>A weboldalt készítette:</h1>
+        <div class="glitch tutels_glitch" onclick="location.href='..//Shh/Easter_egg.html'">
+          <div class="line">Nagy Endre</div>
+          <div class="line">Nagy Endre</div>
+          <div class="line">Nagy Endre</div>
+          <div class="line">Nagy Endre</div>
+          <div class="line">Nagy Endre</div>
+          <div class="line">Nagy Endre</div>
+          <div class="line">Nagy Endre</div>
+          <div class="line">Nagy Endre</div>
+          <div class="line">Nagy Endre</div>
+        </div>
+        <p>nagy.endre.bulcsu@gmail.com</p>
+        <p>06 30 550 7491</p>
+      </div>
+    </div>
+  </footer>
+<!--JS-->
+<!--ScrollOut-->
+<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+<!--Spitting-->
+  <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+<!--Anim-->
+  <script src="../General/os.js"></script>
+  <script src="../General/anims.js"></script>
+</body>
+
+</html>

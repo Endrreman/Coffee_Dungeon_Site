@@ -1,0 +1,180 @@
+/*!       Video       */
+#bg_video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/*!       Header       */
+header{
+  text-align: center;
+
+
+}
+header h1{
+  font-family: "Chakra Petch", sans-serif;
+  padding-top: 10vh;
+  font-weight: 700;
+  font-size: 5rem;
+
+  
+  transition: all ease-in 1s;
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+header h2{
+  font-family: "Caveat", cursive;
+  font-style: italic;
+  font-size: 2.5rem;
+
+  transition: all ease-in-out .8s;
+  transform: translateY(6rem);
+  opacity: 0;
+}
+header hr{
+  margin-inline: auto;
+  border: 3px solid #ffffffcc;
+  border-radius: 4px;
+
+  transition: all ease-in-out .5s;
+  width: 0%;
+  opacity: 0;
+}
+
+/*!       Main       */
+main {
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+/**     Gomb     */
+main>div{
+  transition: all ease-in-out .5s;
+  opacity: 0;
+  scale: .5;
+}
+
+a.bttn-dark {
+  color: #9146FF;
+  background: #141414e0;
+  text-decoration: none;
+  -webkit-transition: 0.3s all ease;
+  transition: all ease-in-out 0.3s;
+}
+a.bttn-dark:hover {
+  color: #FFF;
+}
+a.bttn-dark:focus {
+  color: #FFF;
+}
+.bttn-dark {
+  position: relative;
+  display: inline-block;
+
+  margin-top: 40vh;
+  padding: 0 0;
+  text-align: center;
+  /*border: 2px solid #644cad;*/
+  border-radius: 5px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.bttn-dark:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #9146FF;
+  border-radius: 4px;
+  z-index: -1;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+.bttn-dark:hover:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+.bttn-dark:focus:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.bttn-dark p{
+  margin-bottom: 0;
+}
+
+.bt_txt{
+  float: left;
+  margin: 1rem 1.5rem 1rem 2rem;
+}
+.bt_img{
+  float: left;
+  width: 2.7rem;
+  height: 2.7rem;
+  margin: .5rem .5rem .5rem 0;
+  padding: 0 -100%;
+  z-index: 10;
+  background-position: center;
+  background-size: contain;
+}
+
+/**     Gomb icon     */
+
+.Macos_img{
+  background-image: url(../General/Img/computer.png);
+}
+.Ios_img{
+  background-image: url(../General/Img/apple.png);
+}
+.Windows_img{
+  background-image: url(../General/Img/windows.png);
+}
+.Android_img{
+  background-image: url(../General/Img/android.png);
+}
+.Linux_img{
+  background-image: url(../General/Img/lin_icon.png);
+}
+
+/*
+.Macos{
+  background-color: gray;
+}
+.Ios{
+  background-color: palevioletred;
+}
+.Windows{
+  background-color: royalblue;
+}
+.Android{
+  background-color: greenyellow;
+}
+.Linux{
+  background-color: blueviolet;
+}
+*/
