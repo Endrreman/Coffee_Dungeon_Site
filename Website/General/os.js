@@ -73,11 +73,11 @@ var keyHandler = function (event) {
 	}
   if (far_far_away%2==1){
     document.getElementById("h_h2").textContent="\" Roads? Where we're going, we don't need roads. \"";
-    document.getElementById("bg_video").src="../IMG/Loop.mp4";
+    document.getElementById("bg_video").src="#######################";
   }
   else{
     document.getElementById("h_h2").textContent="\" The first of its kind \"";
-    document.getElementById("bg_video").src="../IMG/gameplay_loop.mp4";
+    document.getElementById("bg_video").src="#######################";
   }
 
 };
