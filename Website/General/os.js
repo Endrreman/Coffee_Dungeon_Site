@@ -10,10 +10,10 @@ var bt_img = document.getElementById("down_bt_img");
 
 if (macosPlatforms.indexOf(platform) !== -1) {
   if (far_far_away%2==1){
-    bt_type.href="../../Game/TheTankGame_Mac_old.zip"; 
+    bt_type.href=""; 
   }
   else{
-    bt_type.href="../../Game/TheTankGame_mac_2.zip"; 
+    bt_type.href=""; 
   }
   bt_img.classList.add("Macos_img");
 } else if (iosPlatforms.indexOf(platform) !== -1) {
@@ -27,10 +27,10 @@ if (macosPlatforms.indexOf(platform) !== -1) {
   bt_img.classList.add("Ios_img");
 } else if (windowsPlatforms.indexOf(platform) !== -1) {
   if (far_far_away%2==1){
-    bt_type.href="../../Game/TheTankGame_Windows_old.zip"; 
+    bt_type.href="../../Game/Gameszko_2.0.zip"; 
   }
   else{
-    bt_type.href="../../Game/TheTankGame_windows_2.zip"; 
+    bt_type.href="../../Game/Gameszko_1.0.zip"; 
   }
   bt_img.classList.add("Windows_img");
 } else if (/Android/.test(userAgent)) {
@@ -44,10 +44,10 @@ if (macosPlatforms.indexOf(platform) !== -1) {
   bt_img.classList.add("Android_img");
 } else if (/Linux/.test(platform)) {
   if (far_far_away%2==1){
-    bt_type.href="../../Game/TheTankGame_Linux_old.zip"; 
+    bt_type.href=""; 
   }
   else{
-    bt_type.href="../../Game/TheTankGame_linux_2.zip"; 
+    bt_type.href=""; 
   }
   bt_img.classList.add("Linux_img");
 }
@@ -73,11 +73,11 @@ var keyHandler = function (event) {
 	}
   if (far_far_away%2==1){
     document.getElementById("h_h2").textContent="\" Roads? Where we're going, we don't need roads. \"";
-    document.getElementById("bg_video").src="#######################";
+    document.getElementById("bg_video").src="../../IMG/Cf_Dn_Gm_high.mp4";
   }
   else{
     document.getElementById("h_h2").textContent="\" The first of its kind \"";
-    document.getElementById("bg_video").src="#######################";
+    document.getElementById("bg_video").src="../../IMG/Cf_Dn_Gm_high.mp4";
   }
 
 };
